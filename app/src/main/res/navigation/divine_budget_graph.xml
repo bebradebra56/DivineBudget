@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/divine_budget_graph"
+    app:startDestination="@id/divineBudgetLoadFragment">
+
+    <fragment
+        android:id="@+id/divineBudgetLoadFragment"
+        android:name="com.divinebudget.app.ejgpoer.presentation.ui.load.DivineBudgetLoadFragment"
+        android:label="DivineBudgetLoadFragment" >
+        <action
+            android:id="@+id/action_divineBudgetLoadFragment_to_divineBudgetV"
+            app:destination="@id/divineBudgetV"
+            app:popUpTo="@id/divine_budget_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/divineBudgetV"
+        android:name="com.divinebudget.app.ejgpoer.presentation.ui.view.DivineBudgetV"
+        android:label="DivineBudgetV" />
+</navigation>

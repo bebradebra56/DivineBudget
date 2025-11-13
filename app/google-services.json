@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "953941310024",
+    "project_id": "divinebudget",
+    "storage_bucket": "divinebudget.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953941310024:android:e16ff80108744acc85767d",
+        "android_client_info": {
+          "package_name": "com.divinebudget.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgKNzF95x-_y_qpwuBaBA-TfQCU7c65vc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
