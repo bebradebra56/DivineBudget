@@ -5,6 +5,7 @@ workflows:
       android_signing:
         - scarab_budget_keystore
       vars:
+        GRADLE_OPTS: "-Xmx6g -XX:MaxMetaspaceSize=1g -Dfile.encoding=UTF-8"
         PACKAGE_NAME: "com.divinebudget.app"
     scripts:
       - name: Force JVM memory settings
